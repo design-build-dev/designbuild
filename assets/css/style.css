@@ -46,7 +46,7 @@ h4 {
   -ms-flex-pack: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url('../img/PharmPrepSG-background-image.jpg');
+  background-color: #002c39;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
