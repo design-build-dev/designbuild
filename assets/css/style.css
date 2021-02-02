@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300&family=Montserrat:wght@300;500;800&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: .5rem;
+  font-weight: 700;
+}
+
+h2 {
+  letter-spacing: .5rem;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: .5rem;
+}
+
+h4 {
+  letter-spacing: 1.5rem;
+  line-height: 36px;
+}
+
+.text-accent {
+  font-family: 'Hepta Slab', sans-serif;
+  color: #87ac27;
+  letter-spacing: .06rem;
+}
+
+#logo {
+
+}
+
+#hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('../img/PharmPrepSG-background-image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.text-green {
+  color: #87ac27;
+}
+
+.text-navy {
+  color: #00485e;
+}
+
+.letter-space {
+  letter-spacing: .1rem;
+}
+.contact-pill {
+  background-color: #87ac27;
+  border-radius: 200px;
+  font-weight: 500;
+}
+
+.contact-pill:hover {
+  color: #00485e;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 60px;
+  line-height: 60px;
+  background-color: #87ac27;
+}
+
+
+/* MEDIA QUERIES */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) { 
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 40px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+}
